@@ -1,39 +1,119 @@
 <!Doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Your Name :: Exam Practical</title><!--put your name in the title-->
-	<style>/* use embedded CSS*/
-	
-	</style>
-</head>
-
-<body>
-<div id="wrapper"><!-- wrapper needs to center in the browser and be 75% width -->
-
-<header><!-- place the logo using CSS -->
-	<h1>HARLEY-DAVIDSON MOTORCYCLES</h1><!-- orange color is #fa6f2c -->
-	
-</header>
-	
-	<nav>
-		<ul>
-  			<li><a href="#">HOME</a></li>
-  			<li><a href="#">MODELS</a></li>
-  			<li><a href="#">FEATURES</a></li>
-  			<li><a href="#">ACCESSORIES</a></li>
-  			<li><a href="#">CONTACT</a></li>
-		</ul>
-</nav>
-	
-	<main><!-- use CSS to size the image so that it scales with the browser width -->
-		<img src="images/Harley_UltraClassic_copy.jpg">
-	</main>
-	
-	<footer>
-		<p>&copy; 2019<br>
-		Webmaster: Your Name</p>
-	</footer>
-</div><!--ends the wrapper-->
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Gabe Oliver :: Exam Practical</title>
+        <style>
+            body {
+                background-color: black;
+                font-family: Verdana;
+            }
+            
+            #wrapper {
+                min-width: 1100px;
+                max-width: 1300px;
+                width: 75%;
+                margin: auto;
+                border: 1px solid #fa6f2c;
+            }
+            
+            header {
+                border: 1px solid #fa6f2c;
+                background-image: url(images/Harley_logo_final.png);
+                background-size: contain;
+                background-position:left;
+                background-repeat: no-repeat;
+            }
+            
+            h1 {
+                color: #fa6f2c;
+                text-align: center;
+                padding-top: 10px;
+                font-family: "Arial Black";
+            }
+            
+            nav {
+                background-color: gray;
+                padding: 2%;
+                text-align: center;
+                font-family: "Arial Black"
+            }
+            
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+            
+            nav li {
+                display: inline;
+                background-color: black;
+                border: 2px solid white;
+                border-radius: 0 10px;
+                padding: 5px;
+                background-color: #fa6f2c;
+                margin-left: 2em;
+            }
+            
+            nav a {
+                text-decoration: none;
+                color: #fff; 
+            }
+            
+            /* A TAG LVAHT THINGS */
+            nav a:link {
+                color: #000;
+            }
+            
+            nav a:visited {
+                color: #fff;
+            }
+            
+            nav a:focus {
+                color:#fff;
+            }
+            
+            nav a:hover {
+                color: #fff;
+            } 
+            
+            nav a:active {
+                color: #000;
+            }
+            
+            img {
+                height: 100px;
+                width: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <!-- wrapper needs to center in the browser and be 75% width -->
+            <header>
+                <!-- place the logo using CSS -->
+                <h1>HARLEY-DAVIDSON MOTORCYCLES</h1>
+                <!-- orange color is #fa6f2c -->
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">MODELS</a></li>
+                    <li><a href="#">FEATURES</a></li>
+                    <li><a href="#">ACCESSORIES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+            <main>
+                <!-- use CSS to size the image so that it scales with the browser width -->
+                <img src="images/Harley_UltraClassic_copy.jpg">
+            </main>
+            <footer>
+                <p>&copy; 2019<br>
+                    Webmaster: Your Name
+                </p>
+            </footer>
+        </div>
+        <!--ends the wrapper-->
+    </body>
 </html>
