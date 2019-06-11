@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Gabe Oliver :: Exam Practical</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             body {
                 background-color: black;
@@ -33,10 +34,10 @@
             }
             
             nav {
-                background-color: gray;
+                background-color: #444;
                 padding: 2%;
                 text-align: center;
-                font-family: "Arial Black"
+                font-family: "Arial Black";
             }
             
             nav ul {
@@ -57,12 +58,11 @@
             
             nav a {
                 text-decoration: none;
-                color: #fff; 
             }
             
             /* A TAG LVAHT THINGS */
             nav a:link {
-                color: #000;
+                color: #fff;
             }
             
             nav a:visited {
@@ -78,22 +78,40 @@
             } 
             
             nav a:active {
-                color: #000;
+                color: #fff;
             }
             
             img {
-                height: 100px;
-                width: 100px;
+                height: 75%;
+                width: 75%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 1%;
+                border: 7px solid #fa6f2c;
+                border-style: double;
             }
+            
+            main {
+                padding: auto;
+                margin: auto;
+                height: 75%;
+                width: 75%;
+            }
+            
+            footer {
+                color: white;
+                margin-top: 15px;
+                padding-left: 12%;
+                font-size: 10px;
+            }
+            
         </style>
     </head>
     <body>
         <div id="wrapper">
-            <!-- wrapper needs to center in the browser and be 75% width -->
             <header>
-                <!-- place the logo using CSS -->
                 <h1>HARLEY-DAVIDSON MOTORCYCLES</h1>
-                <!-- orange color is #fa6f2c -->
             </header>
             <nav>
                 <ul>
@@ -105,15 +123,13 @@
                 </ul>
             </nav>
             <main>
-                <!-- use CSS to size the image so that it scales with the browser width -->
-                <img src="images/Harley_UltraClassic_copy.jpg">
+                <img class="double-border" src="images/Harley_UltraClassic_copy.jpg">
             </main>
             <footer>
                 <p>&copy; 2019<br>
-                    Webmaster: Your Name
+                    Webmaster: Gabe Oliver
                 </p>
             </footer>
         </div>
-        <!--ends the wrapper-->
     </body>
 </html>
