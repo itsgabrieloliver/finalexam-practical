@@ -2,151 +2,128 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Kunal Bagga Exam Practical</title>
-        <!--put your name in the title-->
-        <style>/* use embedded CSS*/
-            *{box-sizing:border-box;}
-            header, nav, main, footer{display:block;}
-            body{
-            background-color: black;
-            font-family:" Arial Black";
+        <title>Gabe Oliver :: Exam Practical</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-color: black;
+                font-family: Verdana;
             }
-            #wrapper{
-            min-width: 1100px;
-            max-width: 1300px;
-            background-color:black;
-            border:3px solid #fa6f2c;
-            width: 75%;
-            margin: auto;
-            height: auto
+            
+            #wrapper {
+                min-width: 1100px;
+                max-width: 1300px;
+                width: 75%;
+                margin: auto;
+                border: 1px solid #fa6f2c;
             }
-            header{
-            font-size: 2em;
-            border: 1.5px solid #fa6f2c;
-            padding:0;
-            background-image: url(images/Harley_logo_final.png);
-            background-repeat: no-repeat;
-            background-size:10%; 
-            height:auto;
-            text-align:center;
-            background-size: 8em;
+            
+            header {
+                border: 1px solid #fa6f2c;
+                background-image: url(images/Harley_logo_final.png);
+                background-size: contain;
+                background-position:left;
+                background-repeat: no-repeat;
             }
-            h1{
-            font-family: "Arial Black";
-            color:#fa6f2c;
-            text-align:justify;
-            background-repeat: no-repeat;
-            background-size:40%; 
-            font-size: 1.3em;
-            margin-left: 200px;
+            
+            h1 {
+                color: #fa6f2c;
+                text-align: center;
+                padding-top: 10px;
+                font-family: "Arial Black";
             }
-            .logo{
-            width: 30%;
-            float:left;
+            
+            nav {
+                background-color: #444;
+                padding: 2%;
+                text-align: center;
+                font-family: "Arial Black";
             }
-            h1, h2, h3, h4{font-family: "Arial Black"
+            
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
             }
-            nav{
-            font-family: "Arial Black";
-            width: 100%;
-            padding: 10px;
-            background-color:#444444;
-            text-align: center;
-            height: 100%;
-            margin: auto;
+            
+            nav li {
+                display: inline;
+                background-color: black;
+                border: 2px solid white;
+                border-radius: 0 10px;
+                padding: 5px;
+                background-color: #fa6f2c;
+                margin-left: 2em;
             }
-            nav ul{list-style-type:none; 
-            padding: 20px;
+            
+            nav a {
+                text-decoration: none;
             }
-            nav li{
-            float:right;
-            margin-left:100px;    
-            margin-bottom: 100px;
-            text-align: center;
-            background-color:#fa6f2c; 
-            border: 2px solid #fff;
-            content:5px;
-            padding: 5px;
-            border-radius: 0 10px 0 10px;
-            padding-left: 7px;
+            
+            /* A TAG LVAHT THINGS */
+            nav a:link {
+                color: #fff;
             }
-            a{
-            text-decoration: none;
+            
+            nav a:visited {
+                color: #fff;
             }
-            a:link{
-            color:#fff;
-            font-weight:700;
+            
+            nav a:focus {
+                color:#fff;
             }
-            a:visited{
-            color:#fff;
+            
+            nav a:hover {
+                color: #fff;
+            } 
+            
+            nav a:active {
+                color: #fff;
             }
-            a:focus{
-            color:maroon;
+            
+            img {
+                height: 75%;
+                width: 75%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 1%;
+                border: 7px solid #fa6f2c;
+                border-style: double;
             }
-            a:hover{
-            color:yellow;
+            
+            main {
+                padding: auto;
+                margin: auto;
+                height: 75%;
+                width: 75%;
             }
-            a:active{
-            color: #fff;
+            
+            footer {
+                color: white;
+                margin-top: 15px;
+                padding-left: 12%;
+                font-size: 10px;
             }
-            main{
-            margin-left: 200px;
-            padding: 15px 15px 100px ;
-            background-color: black;}
-            main h2, main p{ margin-left:15px;}
-            .bike{
-            width:100%;
-            height:auto;
-            border: 4px double #fa6f2c;
-            border-style: double;
-            margin-top: -30px;
-            margin-bottom: -90px;
-            }
-            #veh{
-            margin-right: 120px;
-            margin-top: 70px
-            }
-            footer{
-            color:#fff;
-            text-align:center;
-            font-style: italic;
-            background-color:black;
-            font-size:.5em;
-            /* clear: both;*/
-            }
-            .clear{
-            clear: both    
-            }
-            footer{
-            text-align: left;
-            margin-left: 100px;
-            }
+            
         </style>
     </head>
     <body>
         <div id="wrapper">
-            <!-- wrapper needs to center in the browser and be 75% width -->
             <header>
-                <!-- place the logo using CSS -->
                 <h1>HARLEY-DAVIDSON MOTORCYCLES</h1>
-                <!-- orange color is #fa6f2c -->
             </header>
             <nav>
                 <ul>
-                    <div class="yeet">
-                        <li><a href="#" class="nav">HOME</a></li>
-                    </div>
-                    <li><a href="#" class="nav">MODELS</a></li>
-                    <li><a href="#" class="nav">FEATURES</a></li>
-                    <li><a href="#" class="nav">ACCESSORIES</a></li>
-                    <li><a href="#" class="nav">CONTACT</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">MODELS</a></li>
+                    <li><a href="#">FEATURES</a></li>
+                    <li><a href="#">ACCESSORIES</a></li>
+                    <li><a href="#">CONTACT</a></li>
                 </ul>
             </nav>
             <main>
-                <!-- use CSS to size the image so that it scales with the browser width -->
-                <div id="veh">
-                    <img src="images/Harley_UltraClassic_copy.jpg" class="bike">
-                </div>
+                <img class="double-border" src="images/Harley_UltraClassic_copy.jpg">
             </main>
             <footer>
                 <p>&copy; 2019<br>
@@ -154,6 +131,5 @@
                 </p>
             </footer>
         </div>
-        <!--ends the wrapper-->
     </body>
 </html>
